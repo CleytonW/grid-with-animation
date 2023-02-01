@@ -1,6 +1,6 @@
-# grid-with-animation
+# Grid with animation
 
-# 💻 Sobre o desafio
+## 💻 Sobre o desafio
 
 Bora colocar em prática tudo o que foi visto nessa terceira fase! 😍
 A ideia agora é criar o **Space Cream** na versão Desktop! 🚀
