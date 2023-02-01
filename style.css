@@ -28,7 +28,7 @@
 .page {
   background: var(--bg-page);
 
-  margin: 0 auto;
+  margin: 0;
   min-width: 38.4rem;
 }
 
@@ -187,10 +187,10 @@ span {
 
   main {
     width: 100%;
-    padding: 1.5rem 3rem 3rem 3rem;
+    padding: 1.5rem 6rem 3.2rem 10rem;
     display: grid;
     grid-area: main;
-    gap: 2rem
+    gap: 5rem
   }
 
   footer {
