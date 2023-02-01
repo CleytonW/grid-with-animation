@@ -28,7 +28,7 @@
 .page {
   background: var(--bg-page);
 
-  margin: 0;
+  margin: 0 auto;
   min-width: 38.4rem;
 }
 
@@ -93,13 +93,13 @@ main {
   width: 100%;
   height: 25rem;
   object-fit: cover;
-  transition: all 200ms;
+  transition: all 300ms;
   border-radius: 2rem;
 }
 
 .card img:hover {
   transform: scale(1.05);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 h2 {
@@ -107,7 +107,7 @@ h2 {
   font-family: var(--ff-primary);
   color: var(--fc-heading);
 
-  line-height: 34px;
+  line-height: 3.4rem;
   letter-spacing: 0.07em;
   line-height: 3.5rem;
   text-transform: uppercase;
@@ -155,12 +155,6 @@ span {
   }
 }
 
-@media (max-width: 600px) {
-  footer {
-    display: none;
-  }
-}
-
 @media (min-width: 600px) {
   .page {
     height: 100%;
@@ -187,10 +181,14 @@ span {
 
   main {
     width: 100%;
-    padding: 1.5rem 6rem 3.2rem 10rem;
+    padding: 3rem;
     display: grid;
     grid-area: main;
-    gap: 5rem
+    gap: 2rem
+  }
+
+  .card:nth-child(even) img {
+    height: 25rem;
   }
 
   footer {
@@ -230,12 +228,12 @@ span {
   }
 
   main {
-    grid: 15rem 16.8rem 11rem / 1fr 1fr 1fr;
+    grid: 15rem 16.8rem 20rem / 1fr 1fr 1fr;
     grid-template-areas: 
       "a b c"
       "d b f"
       "d e f";
-    gap: 2.5rem;
+    gap: 3rem;
   }
 
   header {
@@ -247,11 +245,11 @@ span {
   }
 
   .card:nth-child(even) img {
-    height: 350px;
+    height: 35rem;
   }
 
   .card:nth-child(odd) img {
-    height: 150px;
+    height: 15rem;
   }
 
   .card:nth-child(1) { 
@@ -299,10 +297,5 @@ span {
 
   .card:hover h2 {
     opacity: 0.9;
-  }
-
-  footer {
-    height: 1rem;
-    margin-top: 5rem;
   }
 }
